@@ -28,4 +28,4 @@ def get_merge_sorted_list(unsorted_list):
     return merge_two_halves(half_a, half_b)
     
 if __name__ == "__main__":
-    get_merge_sorted_list(5)
+    pass#get_merge_sorted_list(5)
