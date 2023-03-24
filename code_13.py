@@ -2,7 +2,7 @@ def merge_two_halves(a, b):
     x = y = 0
     merge_and_sorted = []
     while x < len(a) and y < len(b):
-        if a(x) < b(y):
+        if a[x] < b[y]:
             merge_and_sorted.append(a[x])
             x += 1
         else:
